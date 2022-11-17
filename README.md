@@ -7,6 +7,7 @@ About:
 Assignment:
 Step 1:
 <details>
+	<p>
 - [ ] Create a Python program to find all possible paths for a Closed Knight’s Tour on any given N x N chess board.
 - [ ] We will be using even numbers only for N as Closed Tours are only possible with an even number of squares
 - [ ] Use the Depth First Search (DFS) algorithm
@@ -24,4 +25,5 @@ Step 1:
 - [ ] For example, on a 5x5 board there will be 25 positions.  The origin will be marked 0 and the final position will be marked 24.
 - [ ] All moves should be stored as a NxN matrix
 - [ ] Cap the number of saved solutions at 100,000.
+		<p>
 </details>

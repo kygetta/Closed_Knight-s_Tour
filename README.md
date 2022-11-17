@@ -7,7 +7,7 @@ About:
 Assignment:
 <details><summary>Step 1:</summary>
 <p>
-	- [ ] Create a Python program to find all possible paths for a Closed Knight’s Tour on any given N x N chess board.
+	<li>Create a Python program to find all possible paths for a Closed Knight’s Tour on any given N x N chess board.</li>
 	- [ ] We will be using even numbers only for N as Closed Tours are only possible with an even number of squares
 	- [ ] Use the Depth First Search (DFS) algorithm
 	- [ ] Your program should accept command line arguments for N and the starting position of the knight as X and Y

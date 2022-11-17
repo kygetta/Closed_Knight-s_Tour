@@ -8,21 +8,21 @@ Assignment:
 <details><summary>Step 1:</summary>
 <p>
 	<li>Create a Python program to find all possible paths for a Closed Knight’s Tour on any given N x N chess board.</li>
-	- [ ] We will be using even numbers only for N as Closed Tours are only possible with an even number of squares
-	- [ ] Use the Depth First Search (DFS) algorithm
-	- [ ] Your program should accept command line arguments for N and the starting position of the knight as X and Y
-	- [ ] Example. python solve_knights_tour.py 6 1 3
-	- [ ] command line args:
+	<li>We will be using even numbers only for N as Closed Tours are only possible with an even number of squares</li>
+	<li>Use the Depth First Search (DFS) algorithm</li>
+	<li>Your program should accept command line arguments for N and the starting position of the knight as X and Y</li>
+	<li>Example. python solve_knights_tour.py 6 1 3</li>
+	<li>command line args:</li>
 		N = 6
 		X = 1
 		Y = 3
-	- [ ] Print out the total execution time at the end of the program
-	- [ ] Create another process that's sole purpose is to create a file that stores all solved solutions.
-	- [ ] This means you will have to use IPC to pass a solution from one of your algorithm process to this file writing process in order to save the data
-	- [ ] These solutions should be an NxN grid depicting where the Knight moved
-	- [ ] The origin should mark move 0 and the final position should mark move NxN
-	- [ ] For example, on a 5x5 board there will be 25 positions.  The origin will be marked 0 and the final position will be marked 24.
-	- [ ] All moves should be stored as a NxN matrix
-	- [ ] Cap the number of saved solutions at 100,000.
+	<li>Print out the total execution time at the end of the program</li>
+	<li>Create another process that's sole purpose is to create a file that stores all solved solutions.</li>
+	<li>This means you will have to use IPC to pass a solution from one of your algorithm process to this file writing process in order to save the data</li>
+	<li>These solutions should be an NxN grid depicting where the Knight moved</li>
+	<li>The origin should mark move 0 and the final position should mark move NxN</li>
+	<li>For example, on a 5x5 board there will be 25 positions.  The origin will be marked 0 and the final position will be marked 24.</li>
+	<li>All moves should be stored as a NxN matrix</li>
+	<li>Cap the number of saved solutions at 100,000.</li>
 <p>
 </details>
